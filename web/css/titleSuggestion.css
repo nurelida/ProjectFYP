@@ -1,0 +1,42 @@
+
+#titleSuggestion{
+    font-family:Arial;
+    font-size:13px;
+    width:600px;
+    
+    
+   
+}
+#titleSuggestion legend{
+  font-size:20px;
+  color:#990000;
+  
+}
+#titleSuggestion table{
+  padding:3px 0px 3px 0px;
+  line-height:24px;
+  width:550px;
+  
+  
+ 
+}
+#proInfo{
+  
+  width:550px;
+  
+  
+ 
+}
+#inputText{
+    width:330px;
+    text-align:left;
+}
+
+#colon{
+   width:1px;
+}
+#text{
+   text-align:right;
+   vertical-align: text-top;
+   font-weight:bold;
+}

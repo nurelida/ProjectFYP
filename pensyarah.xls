@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Worksheet ss:Name="Table1">
+  <Table>
+   <Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110"/>   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="110"/>   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="110"/>   <Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="110"/>   <Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="110"/>   <Row>
+    <Cell><Data ss:Type="String">lectName</Data></Cell>
+    <Cell><Data ss:Type="String">staffNo</Data></Cell>
+    <Cell><Data ss:Type="String">emailAdd</Data></Cell>
+    <Cell><Data ss:Type="String">phoneNo</Data></Cell>
+    <Cell><Data ss:Type="String">pass</Data></Cell>
+    <Cell><Data ss:Type="String">roomNo</Data></Cell>
+    <Cell><Data ss:Type="String">active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ito Wasito, Assoc. Prof. Dr.</Data></Cell>
+    <Cell><Data ss:Type="String">10054</Data></Cell>
+    <Cell><Data ss:Type="String">ito@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532225</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">D07-447-01</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Masitah Ghazali, Dr.</Data></Cell>
+    <Cell><Data ss:Type="String">10650</Data></Cell>
+    <Cell><Data ss:Type="String">masitah@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532355</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-306-07</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Noraniah Mohd Yassin, Assoc. Prof.</Data></Cell>
+    <Cell><Data ss:Type="String">1898</Data></Cell>
+    <Cell><Data ss:Type="String">noraniah@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532346</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-305-09 </Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mabeni Mapoh</Data></Cell>
+    <Cell><Data ss:Type="String">2135</Data></Cell>
+    <Cell><Data ss:Type="String">mabeni@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532232</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">D07-354-01</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Puteh Saad, Assoc. Prof. Dr.</Data></Cell>
+    <Cell><Data ss:Type="String">2157</Data></Cell>
+    <Cell><Data ss:Type="String">puteh@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532344</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-305-06</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Paridah Samsuri</Data></Cell>
+    <Cell><Data ss:Type="String">2586</Data></Cell>
+    <Cell><Data ss:Type="String">paridahsamsuri@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532042</Data></Cell>
+    <Cell><Data ss:Type="String">*BB6008AC74790ADDD33261DC6341E5F8A68AB6B5</Data></Cell>
+    <Cell><Data ss:Type="String">N28-306-15</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Safie Mat Yatim, Assoc. Prof.</Data></Cell>
+    <Cell><Data ss:Type="String">4298</Data></Cell>
+    <Cell><Data ss:Type="String">safiematyatim@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532347</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-305-10</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Abdul Manan Ahmad, Assoc. Prof.</Data></Cell>
+    <Cell><Data ss:Type="String">4724</Data></Cell>
+    <Cell><Data ss:Type="String">manan@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532201</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-305-04</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Norazah Yusof, Assoc. Prof. Dr.</Data></Cell>
+    <Cell><Data ss:Type="String">5160</Data></Cell>
+    <Cell><Data ss:Type="String">norazah@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532344</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-305-12</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sazali Abd Manaf</Data></Cell>
+    <Cell><Data ss:Type="String">5419</Data></Cell>
+    <Cell><Data ss:Type="String">sazali@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532432</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-306-20</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Nor Bahiah Hj Ahmad</Data></Cell>
+    <Cell><Data ss:Type="String">5501</Data></Cell>
+    <Cell><Data ss:Type="String">bahiah@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">0121234567</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-306-08</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Safaai Deris, Prof.  Dr.</Data></Cell>
+    <Cell><Data ss:Type="String">5975</Data></Cell>
+    <Cell><Data ss:Type="String">safaai@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532343</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-305-05</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Siti Zaiton Mohd Hashim, Dr.</Data></Cell>
+    <Cell><Data ss:Type="String">6749</Data></Cell>
+    <Cell><Data ss:Type="String">sitizaiton@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532439</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-306-18</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ismail Mat Amin, Dr.</Data></Cell>
+    <Cell><Data ss:Type="String">6838</Data></Cell>
+    <Cell><Data ss:Type="String">ismailma@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532345</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-305-08</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mohd Yazid Idris, Dr.</Data></Cell>
+    <Cell><Data ss:Type="String">7019</Data></Cell>
+    <Cell><Data ss:Type="String">yazid@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532309</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-306-14 </Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Dayang Norhayati Abg Jawawi, Dr.</Data></Cell>
+    <Cell><Data ss:Type="String">7331</Data></Cell>
+    <Cell><Data ss:Type="String">dayang@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532354</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-306-06</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Hishammuddin Asmuni, Dr.</Data></Cell>
+    <Cell><Data ss:Type="String">7351</Data></Cell>
+    <Cell><Data ss:Type="String">hishammuddin@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532353</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-306-05</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Wan Mohd Nasir Wan Kadir, Dr.</Data></Cell>
+    <Cell><Data ss:Type="String">7352</Data></Cell>
+    <Cell><Data ss:Type="String">wnasir@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532348</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-305-11</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ali Selamat, Assoc. Prof. Dr.</Data></Cell>
+    <Cell><Data ss:Type="String">7409</Data></Cell>
+    <Cell><Data ss:Type="String">aselamat@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532222</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">D07-449-01</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Radziah Mohamad, Dr.</Data></Cell>
+    <Cell><Data ss:Type="String">7801</Data></Cell>
+    <Cell><Data ss:Type="String">radziahm@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532013</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-306-17</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Zalmiyah Zakaria</Data></Cell>
+    <Cell><Data ss:Type="String">7903</Data></Cell>
+    <Cell><Data ss:Type="String">zalmiyah@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">075532357</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-306-09</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Roliana Ibrahim Dr</Data></Cell>
+    <Cell><Data ss:Type="String">8063</Data></Cell>
+    <Cell><Data ss:Type="String">roliana@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">0171234567</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">N28-403-04</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Dr Muhamad Razib Othman</Data></Cell>
+    <Cell><Data ss:Type="String">8096</Data></Cell>
+    <Cell><Data ss:Type="String">razib.fsksm@gmail.com</Data></Cell>
+    <Cell><Data ss:Type="String">075599230</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">BIP-204</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pensyarah</Data></Cell>
+    <Cell><Data ss:Type="String">PENSYARAH</Data></Cell>
+    <Cell><Data ss:Type="String">pensyarah@utm.my</Data></Cell>
+    <Cell><Data ss:Type="String">0123456789</Data></Cell>
+    <Cell><Data ss:Type="String">*E6CC90B878B948C35E92B003C792C46C58C4AF40</Data></Cell>
+    <Cell><Data ss:Type="String">n28</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

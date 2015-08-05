@@ -1,0 +1,16 @@
+.button{
+	text-align:center;
+        font-family:Arial;
+	color:#FFFFFF;
+	font-size:13px;
+	font-weight:bold;
+        width:159px;
+	height:27px;
+	line-height:27px;
+	border-style:none;
+	border-width:0px;
+	border-color:transparent;
+	background-color:transparent;
+	background-image:url(../Images/redButton.gif);
+	cursor:default;
+}

@@ -1,0 +1,50 @@
+.timetable td{
+        width:120px;
+        height:25px;
+        font-family:Arial;
+        font-size:12px;
+        font-weight:bold;
+        text-align:center;
+}
+
+.desc
+{
+        font-family:Arial;
+        font-size:12px;
+        font-weight:bold;
+ }
+#adTimetable td{
+    
+    border:grey;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    text-align:center;
+    
+    
+}
+#adTimetable tr{
+    border:grey;
+}
+#adTimetable td select
+{
+    width:160px;
+}
+#adTitle
+{
+    background-color:#ebebeb;
+    height:25px;
+    
+    
+    
+}
+#adContent1{
+    
+    background-color:whitesmoke;
+    height:100px;
+}
+#adContent2{
+   
+    background-color:#E3E3E3;
+    height:100px;
+}

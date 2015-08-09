@@ -129,7 +129,7 @@
  <div id="ic-group" class="form-group">
     <div class="col-xs-6 col-xs-offset-3 input-group">
         <div  class="input-group-addon">IC&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;</div>
-      <input id="ic" type="text" class="form-control" placeholder="Enter IC No Without Dash" name="ic_no" onblur="javascript:validateInline(this.id, this.value)" >
+      <input id="ic" type="number" class="form-control" placeholder="Enter IC No Without Dash" name="ic_no" onblur="javascript:validateInline(this.id, this.value)" >
       <span id="icstat" class="glyphicon form-control-feedback" aria-hidden="true"></span>
     
       
@@ -140,7 +140,7 @@
   <div id="contact-group" class="form-group">
     <div class="col-xs-6 col-xs-offset-3 input-group">
             <div  class="input-group-addon">Contact&emsp;&emsp;&emsp;&emsp;&emsp;</div>
-      <input id="contact" type="text" class="form-control" placeholder="Enter Contact No Without Dash" name="phone_no" onblur="javascript:validateInline(this.id, this.value)" >
+      <input id="contact" type="number" class="form-control" placeholder="Enter Contact No Without Dash" name="phone_no" onblur="javascript:validateInline(this.id, this.value)" >
       <span id="contactstat" class="glyphicon form-control-feedback" aria-hidden="true"></span>
     
       

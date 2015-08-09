@@ -28,19 +28,32 @@ public class ServAdAssignEvaluator extends HttpServlet {
         String metricNo = request.getParameter("metricNo");
         String svNo = request.getParameter("svNo");
         String address = "";
+        
+ 
+        String evNo = request.getParameter("evNo");     
+        String idEX1  = request.getParameter("assignEX1");
+        //String queryassignevaluator1 = "update evaluator set examiner1No='"+idEX1+"'where metricNo='"+metricNo+"'";
+        
+        
+        
         try {
             if ((!(UserSession==null))&&(UserType.equals("3"))) {
                 if(Option.equals("AssignEx1")){
-                    String idEX1  = request.getParameter("assignEX1");
-                    
-                     String queryassignevaluator1= "INSERT INTO evaluator (metricNo,supervisorNo,examiner1No,examiner2No,flag_supervisor,flag_examiner1,flag_examiner2) values('"+metricNo+"','"+svNo+"','"+idEX1+"')";
+                    //String idEX1  = request.getParameter("assignEX1");
+                    String queryassignevaluator1 = "update evaluator set examiner1No='"+idEX1+"'where metricNo='"+metricNo+"'";
+        
+        
+                     //String queryassignevaluator1= "INSERT INTO evaluator (metricNo,supervisorNo,examiner1No,examiner2No,flag_supervisor,flag_examiner1,flag_examiner2) values('"+metricNo+"','"+svNo+"','"+idEX1+"')";
                     //String queryassignevaluator1= "update evaluator set examiner1No='"+idEX1+"',flag_examiner1='N' where metricNo='"+metricNo+"'";
-                    System.out.println(queryassignevaluator1);
+                    //System.out.println(queryassignevaluator1);
                     DB objDB= new DB();
                     objDB.connect();
+                    //objDB.query(queryassignevaluator1);
+                    System.out.println(queryassignevaluator1);
+                    //objDB.close();
                     objDB.query(queryassignevaluator1);
-                    objDB.close();
                     address="/WEB-INF/AdAssignEvaluator.jsp";
+                    objDB.close();
                     
                 }
                 else if(Option.equals("AssignEx2")){
@@ -95,7 +108,7 @@ public class ServAdAssignEvaluator extends HttpServlet {
            RequestDispatcher dispatcher = request.getRequestDispatcher(address);
            dispatcher.forward(request, response);  
         } 
-        catch(Exception e){
+        catch(ServletException | IOException e){
             response.getWriter().println(e.getMessage());
         }
         finally {

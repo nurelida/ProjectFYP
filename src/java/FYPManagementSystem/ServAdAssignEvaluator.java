@@ -26,10 +26,13 @@ public class ServAdAssignEvaluator extends HttpServlet {
         String UserType = (String)session.getAttribute("userType");
         String Option = request.getParameter("Option");
         String metricNo = request.getParameter("metricNo");
-        String svNo = request.getParameter("svNo");
+        //String svNo = request.getParameter("svNo");
         String address = "";
         
- 
+        DB objDB= new DB();
+        
+        String queryInsert = "";
+        String supervisorNo = request.getParameter("supervisorNo");
         String evNo = request.getParameter("evNo");     
         String idEX1  = request.getParameter("assignEX1");
         //String queryassignevaluator1 = "update evaluator set examiner1No='"+idEX1+"'where metricNo='"+metricNo+"'";
@@ -40,26 +43,55 @@ public class ServAdAssignEvaluator extends HttpServlet {
             if ((!(UserSession==null))&&(UserType.equals("3"))) {
                 if(Option.equals("AssignEx1")){
                     //String idEX1  = request.getParameter("assignEX1");
-                    String queryassignevaluator1 = "update evaluator set examiner1No='"+idEX1+"'where metricNo='"+metricNo+"'";
+                    //String queryassignevaluator1 = "update evaluator set examiner1No='"+idEX1+"'where metricNo='"+metricNo+"'";
+                    //queryInsert = "insert into evaluator (supervisorNo,examiner1No,metricNo) values('"+supervisorNo+"','"+idEX1+"','"+metricNo+"')";
+                    
+                    queryInsert = "insert into evaluator (examiner1No,metricNo) values('"+idEX1+"','"+metricNo+"')";
+                    //String tempString=idEX1;
+                    //tempString= tempString.replaceAll("\\s+", "_");
+                    
+                    
+                    String queryassignevaluator1 = "update evaluator set examiner1No='"+idEX1+"',flag_examiner1='N' where metricNo='"+metricNo+"'";
+                    // = "update evaluator AS t1 INNER JOIN supervisor AS t2 ON t1.supervisorNo=t2.staffNo SET t1.supervisorNo=t2.supervisorNo";
+
+                 
+                    
+                    
+                    objDB.connect();
+                    objDB.query(queryInsert);
+                    objDB.query(queryassignevaluator1);
+                    
+                    System.out.println(queryInsert);
+                    System.out.println(queryassignevaluator1);
         
-        
+                    objDB.close();
+                    address="/WEB-INF/AdAssignEvaluator.jsp";
+                    
+                    
                      //String queryassignevaluator1= "INSERT INTO evaluator (metricNo,supervisorNo,examiner1No,examiner2No,flag_supervisor,flag_examiner1,flag_examiner2) values('"+metricNo+"','"+svNo+"','"+idEX1+"')";
                     //String queryassignevaluator1= "update evaluator set examiner1No='"+idEX1+"',flag_examiner1='N' where metricNo='"+metricNo+"'";
                     //System.out.println(queryassignevaluator1);
-                    DB objDB= new DB();
-                    objDB.connect();
-                    //objDB.query(queryassignevaluator1);
-                    System.out.println(queryassignevaluator1);
-                    //objDB.close();
-                    objDB.query(queryassignevaluator1);
-                    address="/WEB-INF/AdAssignEvaluator.jsp";
-                    objDB.close();
+                    //DB objDB= new DB();
+//                    objDB.connect();
+//                    //objDB.query(queryassignevaluator1);
+//                    System.out.println(queryassignevaluator1);
+//                    //objDB.close();
+//                    objDB.query(queryassignevaluator1);
+//                    address="/WEB-INF/AdAssignEvaluator.jsp";
+//                    objDB.close();
                     
                 }
                 else if(Option.equals("AssignEx2")){
                     String idEX2  = request.getParameter("assignEX2");
-                    String queryassignevaluator2= "update evaluator set examiner2No='"+idEX2+"',flag_examiner2='N' where metricNo='"+metricNo+"'";
-                    DB objDB= new DB();
+                    //String queryassignevaluator2= "update evaluator set examiner2No='"+idEX2+"',flag_examiner2='N' where metricNo='"+metricNo+"'";
+                    //DB objDB= new DB();
+                    
+                     queryInsert = "insert into evaluator (examiner2No,metricNo) values('"+idEX2+"','"+metricNo+"')";
+                    //String tempString=idEX1;
+                    //tempString= tempString.replaceAll("\\s+", "_");
+                    
+                    
+                    String queryassignevaluator2 = "update evaluator set examiner2No='"+idEX2+"',flag_examiner2='N' where metricNo='"+metricNo+"'";
                     objDB.connect();
                     objDB.query(queryassignevaluator2);
                     objDB.close();

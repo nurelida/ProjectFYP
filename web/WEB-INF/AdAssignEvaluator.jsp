@@ -133,6 +133,20 @@ DB objDB = new DB();
         
         
      }
+     
+     
+     
+     String querySupervisor ="select staffNo, metricNo from supervisor order by staffNo";
+     objDB.query(queryLec);
+     //lecRow=objDB.getNumberOfRows();
+
+     for(int i=0;i<objDB.getNumberOfRows();i++)
+     {
+        metricNo.add(objDB.getDataAt(i,"metricNo"));
+        staffNo.add(objDB.getDataAt(i,"staffNo"));
+        
+        
+     }
 %>
 <html>
 
@@ -376,12 +390,15 @@ DB objDB = new DB();
                                                  "from student a "+
                                                  "inner join lecturer b on b.department=a.department "+
                                                  "where a.metricNo='"+String.valueOf(metricNo.get(i))+"' "+
-                                                 " and b.active='Active'";
+                                                 "and b.active='Active'";
+                                                 //"from supervisor c"+
+                                                 //"inner join evaluator d on d.supervisorNo=c.supervisorNo"+
+                                           // "where c.supervisorNo='"+String.valueOf(sv.get(i))+"'";
                                     objDB.query(query);
                                     %>
                                     
                                     <% out.print(ex1No.get(i)); %>
-                                    <%=ex1No.get(i)%>
+                                   
                                     
                                 
                                   
@@ -389,7 +406,7 @@ DB objDB = new DB();
                                        
                                         <option value="">Please Select</option>
                                         <%for(int j=0;j<objDB.getNumberOfRows();j++){%>
-                                        
+                                        <%out.print(lectName.get(j));%>
                                         <%--<option value="<%=objDB.getDataAt(j, "staffNo")%>"><%=objDB.getDataAt(j, "lectName")%>   </option>--%>
                                         
                                         <%--<%if(ex1No.get(i).equals(objDB.getDataAt(j, "staffNo")))   {%>selected<%}%> --%>
@@ -400,6 +417,7 @@ DB objDB = new DB();
                                       
                                         <%--<option value="<%=staffNo.get(j)%>" <%if((staffNo.get(j).equals(svNo.get(i)))){%> disabled <%}%>  ><%=lecName.get(j)%></option>--%>
                                         
+                                  
                                         
                                         
                                         <%}%>
@@ -415,17 +433,19 @@ DB objDB = new DB();
                                     objDB.query(query2);
                                     %>
                                     
-                                    
+                                    <% out.print(ex2No.get(i)); %>
                                     <%--<% out.print(ex2No.get(i)); %>--%>
                                     
                                     <select id="assignEX2<%=metricNo.get(i)%>" class="form-control" onchange="assignvalueEX2('<%=metricNo.get(i)%>')"  class="form-control">
+                                        
                                         <option value="">Please Select</option>
                                         <%for(int j=0;j<objDB.getNumberOfRows();j++){%>
+                                        <%out.print(lectName.get(j));%>
                                         
                                         <%--<option value="<%=objDB.getDataAt(j, "staffNo")%>"><%=objDB.getDataAt(j, "LectName")%></option>--%>
                                         
-                                         <option <%if((staffNo.get(j).equals(ex2No.get(i)))){%>selected<%}%> value="<%=lectName.get(j)%>"><%=lectName.get(j)%> </option>
-                                        
+                                         <%--<option <%if((staffNo.get(j).equals(ex2No.get(i)))){%>selected<%}%> value="<%=lectName.get(j)%>"><%=lectName.get(j)%> </option>--%>
+                                        <option <%if((staffNo.get(j).equals(ex2No.get(i)))){%>selected<%}%> value="<%=staffNo.get(j)%>"><%=lectName.get(j)%> </option>
                                         <%--<option value="<%=objDB.getDataAt(j, "staffNo")%>" <%if(ex1No.get(i).equals(objDB.getDataAt(j, "staffNo"))){%> selected <%}%>  ><%=objDB.getDataAt(j, "LectName")%></option>--%>
                                         <%}%>
                                     </select>

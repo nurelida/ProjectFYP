@@ -4,6 +4,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/Elisa/Documents/GitHub/ProjectFYP/web/WEB-INF/AdAssignEvaluator.jsp</file>
             <file>file:/C:/Users/Elisa/Documents/GitHub/ProjectFYP/src/java/FYPManagementSystem/ServAdAsgEvT.java</file>
             <file>file:/C:/Users/Elisa/Documents/GitHub/ProjectFYP/src/java/FYPManagementSystem/ServAdAssignEvaluator.java</file>
@@ -24,6 +25,15 @@
             <file>file:/C:/Users/Elisa/Documents/GitHub/ProjectFYP/web/WEB-INF/AdDepartment.jsp</file>
             <file>file:/C:/Users/Elisa/Documents/GitHub/ProjectFYP/web/WEB-INF/AdAssignEvaluator_psm2.jsp</file>
             <file>file:/C:/Users/Elisa/Documents/GitHub/ProjectFYP/web/WEB-INF/LecTimeTable.jsp</file>
+=======
+            <file>file:/C:/Users/My%20Pc/Documents/GitHub/ProjectFYP/src/java/FYPManagementSystem/ServLecSelectEv.java</file>
+            <file>file:/C:/Users/My%20Pc/Documents/GitHub/ProjectFYP/web/WEB-INF/LecEv_Panel.jsp</file>
+            <file>file:/C:/Users/My%20Pc/Documents/GitHub/ProjectFYP/src/java/FYPManagementSystem/ServAdAssignEvaluator.java</file>
+            <file>file:/C:/Users/My%20Pc/Documents/GitHub/ProjectFYP/web/WEB-INF/AdAssignEvaluator.jsp</file>
+            <file>file:/C:/Users/My%20Pc/Documents/GitHub/ProjectFYP/src/java/FYPManagementSystem/ServAdSelectEv.java</file>
+            <file>file:/C:/Users/My%20Pc/Documents/GitHub/ProjectFYP/src/java/FYPManagementSystem/ServLecStudAcceptance.java</file>
+            <file>file:/C:/Users/My%20Pc/Documents/GitHub/ProjectFYP/web/WEB-INF/LecViewStud.jsp</file>
+>>>>>>> 610069f901779dbb2ea744fb7f4b0d1b2bfccc9e
         </group>
     </open-files>
 </project-private>
